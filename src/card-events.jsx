@@ -31,7 +31,7 @@ const CardEvent = (props) => {
         <div className='slide-image' sx={{width:'100%'}}>
         <Card sx={{ bgcolor: 'black' }}>
           <CardMedia
-            sx={{ height: 500  }}
+            sx={{ height: 450  }}
             image={props.eventImage}
             title={props.eventName}
           />
